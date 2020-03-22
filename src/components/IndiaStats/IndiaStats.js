@@ -28,7 +28,7 @@ class IndiaStats extends Component {
             <div id='IndiaStats' style={{marginTop:'30px', marginLeft:'20px', marginRight:'20px'}}>
                 <Row>
                     <Col xs={8}>
-                        <h3 style={{paddingLeft:'22px'}}>Corona Cases in India</h3>
+                        <h3 style={{paddingLeft:'5px'}}>Corona Cases in India</h3>
                     </Col>
                     <Col xs={4} style={{float:'right', fontSize:'12px', textAlign:'right'}}>
                         <p>Official - <span style={{backgroundColor:'#009900', padding:'2px 8px', marginLeft:'5px'}}></span></p>
@@ -64,8 +64,6 @@ class IndiaStats extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                {/* </Row>
-                <Row style={{margin:0}}> */}
                     <Col xs={12} md={6} lg={3}>
                         <Card style={{cursor:'pointer', boxShadow:'2px 2px 4px 4px #d9d9d9'}}>
                             <Card.Body>

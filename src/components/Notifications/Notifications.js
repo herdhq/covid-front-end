@@ -18,7 +18,6 @@ class Notifications extends Component {
             .then(res => {
                 const notifications = res.data.data;
                 this.setState({ notifications });
-                console.log(notifications);
             }
         )
     }
@@ -34,10 +33,10 @@ class Notifications extends Component {
                         <Col key={index} xs={12}>
                             <Alert variant='dark' onClick={() => (window.open(item.url))}>
                                 <Row>
-                                    <Col xs={11}>
+                                    <Col xs={10}>
                                         {item.title}
                                     </Col>
-                                    <Col xs={1}>
+                                    <Col xs={2}>
                                         <img src={NextImg} alt={'expand'} height={'30px'}/>
                                     </Col>
                                 </Row>

@@ -5,7 +5,6 @@ import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
-import { Tooltip } from 'react-bootstrap';
 
 class StatewiseCases extends Component {
     constructor() {
@@ -50,36 +49,25 @@ class StatewiseCases extends Component {
                                         </Accordion.Toggle>
                                     </Card.Header>
                                     <Accordion.Collapse eventKey={index}>
-                                    <Card.Body>
+                                    <Card.Body style={{backgroundColor:'#343a40'}}>
                                         <Row>
-                                            <Col xs={8} style={{textAlign:'right', backgroundColor:'#dfecdf'}}>
-                                                Total Cases
+                                            <Col xs={12} lg={12} style={{textAlign:'center', padding:'20px', backgroundColor:'#dfecdf'}}>
+                                                Total Cases - {item.total_cases}
                                             </Col>
-                                            <Col xs={4}>{item.total_cases}</Col>
                                         </Row>
                                         <Row>
-                                            <Col xs={8} style={{textAlign:'right', backgroundColor:'#bfd9bf'}}>
-                                                Indian Cases
+                                            <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#bfd9bf'}}>
+                                                Indian Cases - {item.indian_cases}
                                             </Col>
-                                            <Col xs={4}>{item.indian_cases}</Col>
-                                        </Row>
-                                        <Row>
-                                            <Col xs={8} style={{textAlign:'right', backgroundColor:'#9fc69f'}}>
-                                                Foriegn Cases
+                                            <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#9fc69f'}}>
+                                                Foriegn Cases - {item.foriegn_cases}
                                             </Col>
-                                            <Col xs={4}>{item.foriegn_cases}</Col>
-                                        </Row>
-                                        <Row>
-                                            <Col xs={8} style={{textAlign:'right', backgroundColor:'#80b380'}}>
-                                                Discharged Cases
+                                            <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#80b380'}}>
+                                                Discharged Cases - {item.discharged_cases}
                                             </Col>
-                                            <Col xs={4}>{item.discharged_cases}</Col>
-                                        </Row>
-                                        <Row>
-                                            <Col xs={8} style={{textAlign:'right', backgroundColor:'#609f60'}}>
-                                                Deaths
+                                            <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#609f60'}}>
+                                                Deaths - {item.deaths}
                                             </Col>
-                                            <Col xs={4}>{item.deaths}</Col>
                                         </Row>
                                     </Card.Body>
                                     </Accordion.Collapse>

@@ -48,8 +48,8 @@ class News extends Component {
                 <Row>
                     {this.state.news_stack.map((item, index) => (
                         <Col xs={12} md={6} lg={3} key={index}>
-                            <Card style={{ boxShadow:'2px 2px 4px 4px #d9d9d9', marginBottom:'20px', height:'450px'}}>
-                                <Card.Img variant="top" src={item.image} />
+                            <Card bg='dark' text='white' style={{ boxShadow:'2px 2px 4px 4px #d9d9d9', marginBottom:'20px', height:'450px'}}>
+                                <Card.Img variant="top" src={item.image} height={'200px'}/>
                                 <Card.Body>
                                     <Card.Title>{item.title}</Card.Title>
                                     <Card.Text>
@@ -66,7 +66,7 @@ class News extends Component {
                     ))}
                 </Row>
                 <Row>
-                    <Button  variant="secondary" size="lg" onClick={this.handleLoadMore}>Load More...</Button>
+                    <Button  variant="secondary" size="lg" onClick={this.handleLoadMore}>Load More News ...</Button>
                 </Row>
             </div>
         );

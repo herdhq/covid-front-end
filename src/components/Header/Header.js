@@ -15,20 +15,18 @@ class Header extends Component {
         // const {state, healthcare, news, notifications} = this.props;
         return (
             <Container fluid>
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="dark" variant="dark" expand="lg" fixed="top" >
                     <Navbar.Brand href="#home"><img src={logo} alt={'LOGO'} width={'50px'}/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    {/* <div style={{float:'right'}}> */}
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="mr-auto">
-                                {MENU_TAGS.map((item, index) => (
-                                    <div key={index}>
-                                        <Nav.Link href={item.link}>{item.tag}</Nav.Link>
-                                    </div>
-                                ))}
-                            </Nav>
-                        </Navbar.Collapse>
-                    {/* </div> */}
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            {MENU_TAGS.map((item, index) => (
+                                <div key={index}>
+                                    <Nav.Link href={item.link}>{item.tag}</Nav.Link>
+                                </div>
+                            ))}
+                        </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
             </Container>
         );

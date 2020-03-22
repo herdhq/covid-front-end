@@ -30,7 +30,7 @@ export default class App extends React.Component {
           news={news}
           notifications={notifications}
         />
-        <div> 
+        <div style={{marginTop:'140px'}}> 
           {/* component for corona stats in India */}
           <IndiaStats />
           {/* component for today's cases */}
