@@ -14,7 +14,7 @@ class Notifications extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://theherdlabs.com/api/v1/notifications`)
+        axios.get(`https://theherdlabs.com/api/v1/notifications`)
             .then(res => {
                 const notifications = res.data.data;
                 this.setState({ notifications });

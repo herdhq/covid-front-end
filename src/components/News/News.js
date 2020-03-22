@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import axios from 'axios';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
+import NEWS_NAMES from './constants.js';
 
 class News extends Component {
     constructor(props) {
@@ -16,12 +17,13 @@ class News extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://theherdlabs.com/api/v1/news/${this.state.count}`)
+        axios.get(`https://theherdlabs.com/api/v1/news/${this.state.count}`)
             .then(res => {
                 const new_news_stack = res.data.data;
                 const old_news_stack = this.state.news_stack;
                 old_news_stack.push(...new_news_stack)
                 this.setState({ news_stack: old_news_stack });
+                this.setState({count: this.state.count + 1 })
             })
             .catch(error => {
                 return (
@@ -35,7 +37,6 @@ class News extends Component {
     
 
     handleLoadMore = () => {
-        this.setState({ count: this.state.count + 1 })
         this.componentDidMount()
     }
 
@@ -54,7 +55,7 @@ class News extends Component {
                                     <Card.Title>{item.title}</Card.Title>
                                     <Card.Text>
                                         <div style={{fontSize:'12px'}}>
-                                            Source: <span>{item.source}</span>
+                                            Source: <span>{NEWS_NAMES[item.source]}</span>
                                             <br />
                                             Updated on: <span>{item.timestamp}</span>
                                         </div>

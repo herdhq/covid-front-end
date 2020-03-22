@@ -13,7 +13,7 @@ class StatewiseCases extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://206.189.192.31:5000//healthcare`)
+        axios.get(`https://theherdlabs.com/api/v1/healthcare`)
             .then(res => {
                 const hospitals_data = res.data.data;
                 this.setState({ hospitals_data });

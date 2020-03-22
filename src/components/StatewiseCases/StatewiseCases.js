@@ -15,7 +15,7 @@ class StatewiseCases extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://theherdlabs.com/api/v1/getStateWiseCases`)
+        axios.get(`https://theherdlabs.com/api/v1/getStateWiseCases`)
             .then(res => {
                 const states_data = res.data.data;
                 this.setState({ states_data });

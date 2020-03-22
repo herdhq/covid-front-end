@@ -14,7 +14,7 @@ class IndiaStats extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://theherdlabs.com/api/v1/overview`)
+        axios.get(`https://theherdlabs.com/api/v1/overview`)
             .then(res => {
                 const statsOf = res.data.data[0];
                 const statsUf = res.data.data[1];
