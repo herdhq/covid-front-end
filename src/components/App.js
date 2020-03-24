@@ -34,7 +34,7 @@ export default class App extends React.Component {
           {/* component for corona stats in India */}
           <IndiaStats />
           {/* component for today's cases */}
-          {/* <TodayCases /> */}
+          <TodayCases />
           {/* component for statewise cases */}
           <StatewiseCases />
         </div>
