@@ -6,7 +6,9 @@ import Header from './Header/Header.js'
 import Footer from './Footer/Footer.js'
 import HospitalsContacts from './HospitalsContacts/HospitalsContacts.js'
 import News from './News/News.js';
-import Notifications from './Notifications/Notifications.js'
+import Notifications from './Notifications/Notifications.js';
+import ContagionGraph from './ContagionGraph/ContagionGraph.js';
+import CountrywiseComparison from './CountrywiseComparison/CountrywiseComparison.js';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class App extends React.Component {
@@ -34,7 +36,9 @@ export default class App extends React.Component {
           {/* component for corona stats in India */}
           <IndiaStats />
           {/* component for today's cases */}
-          <TodayCases />
+          {/* <TodayCases /> */
+          <CountrywiseComparison />
+          <ContagionGraph />
           {/* component for statewise cases */}
           <StatewiseCases />
         </div>
