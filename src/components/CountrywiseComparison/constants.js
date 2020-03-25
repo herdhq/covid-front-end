@@ -79,7 +79,7 @@ const DATA = [
         },
         {
           "x": "bus",
-          "y": 72
+          "y": -60
         },
         {
           "x": "car",
@@ -195,7 +195,7 @@ const DATA = [
         },
         {
           "x": "moto",
-          "y": 241
+          "y": -300
         },
         {
           "x": "bicycle",
@@ -233,7 +233,7 @@ const DATA = [
         },
         {
           "x": "train",
-          "y": 180
+          "y": -40
         },
         {
           "x": "subway",
@@ -265,7 +265,7 @@ const DATA = [
         },
         {
           "x": "others",
-          "y": 13
+          "y": -800
         }
       ]
     }

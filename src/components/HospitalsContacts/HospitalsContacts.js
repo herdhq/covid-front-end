@@ -29,7 +29,7 @@ class StatewiseCases extends Component {
                         <h3 style={{paddingLeft:'22px'}}>Hospitals & Contacts</h3>
                     </Col>
                 </Row>  
-                <Row style={{marginBottom:'160px', marginTop:'20px', padding:'15px'}}>
+                <Row style={{marginBottom:'50px', marginTop:'20px', padding:'15px'}}>
                     <Table responsive striped bordered hover variant="dark">
                         <thead>
                             <tr>

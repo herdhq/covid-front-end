@@ -1,6 +1,6 @@
 import React from 'react';
 import IndiaStats from './IndiaStats/IndiaStats.js'
-import TodayCases from './TodayCases/TodayCases.js'
+// import TodayCases from './TodayCases/TodayCases.js'
 import StatewiseCases from './StatewiseCases/StatewiseCases.js'
 import Header from './Header/Header.js'
 import Footer from './Footer/Footer.js'
@@ -32,19 +32,19 @@ export default class App extends React.Component {
           news={news}
           notifications={notifications}
         />
-        <div style={{marginTop:'140px'}}> 
+        <div style={{marginTop:'120px'}}> 
           {/* component for corona stats in India */}
           <IndiaStats />
           {/* component for today's cases */}
-          {/* <TodayCases /> */
+          {/* <TodayCases /> */}
           <CountrywiseComparison />
-          <ContagionGraph />
           {/* component for statewise cases */}
           <StatewiseCases />
         </div>
         <div>
           {/* component for hospital details */}
           <HospitalsContacts />
+          <ContagionGraph />
         </div>
         <div>
           {/* component for notification */}

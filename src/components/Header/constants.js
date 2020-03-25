@@ -4,8 +4,16 @@ const MENU_TAGS = [
         link:'#IndiaStats',
     },
     {
+        tag:'Compare By Country',
+        link:'#CountrywiseComparison'
+    },
+    {
         tag:'Hospitals & Contacts',
         link:'#HospitalsContacts',
+    },
+    {
+        tag:'Contagion Graph',
+        link:'#ContagionGraph'
     },
     {
         tag:'Gov. Notifications',

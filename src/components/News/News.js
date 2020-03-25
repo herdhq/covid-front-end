@@ -42,7 +42,7 @@ class News extends Component {
 
     render() {
         return (
-            <div id='News' style={{margin:'30px 20px 150px 20px'}}>
+            <div id='News' style={{margin:'30px 20px 80px 20px'}}>
                 <Row>
                     <h3 style={{paddingLeft:'22px'}}>News</h3>
                 </Row>

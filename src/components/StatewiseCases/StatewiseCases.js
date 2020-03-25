@@ -31,7 +31,7 @@ class StatewiseCases extends Component {
                         <h3 style={{paddingLeft:'22px'}}>State-Wise Cases</h3>
                     </Col>
                 </Row>  
-                <Row style={{marginBottom:'160px', marginTop:'20px'}}>
+                <Row style={{marginBottom:'50px', marginTop:'20px'}}>
                     <Col xs={12}>
                         <Accordion defaultActiveKey={1}>
                             {this.state.states_data.map((item, index) => (
