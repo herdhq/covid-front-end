@@ -52,21 +52,21 @@ class StatewiseCases extends Component {
                                     <Card.Body style={{backgroundColor:'#343a40', whiteSpace: 'nowrap'}}>
                                         <Row>
                                             <Col xs={12} lg={12} style={{textAlign:'center', padding:'20px', backgroundColor:'#dfecdf'}}>
-                                                Total Cases - {item.total_cases}
+                                                Total Cases - {item.total_cases == null ? 0: item.total_cases }
                                             </Col>
                                         </Row>
                                         <Row>
                                             <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#bfd9bf'}}>
-                                                Indian Cases - {item.indian_cases}
+                                                Indian Cases - {item.indian_cases == null ? 0 : item.indian_cases }
                                             </Col>
                                             <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#9fc69f'}}>
-                                                Foriegn Cases - {item.foriegn_cases}
+                                                Foriegn Cases - {item.foriegn_cases == null ? 0 : item.foriegn_cases }
                                             </Col>
                                             <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#80b380'}}>
-                                                Discharged Cases - {item.discharged_cases}
+                                                Discharged Cases - {item.discharged_cases == null ? 0 : item.discharged_cases }
                                             </Col>
                                             <Col xs={6} lg={3} style={{textAlign:'center', padding:'20px', backgroundColor:'#609f60'}}>
-                                                Deaths - {item.deaths}
+                                                Deaths - {item.deaths == null ? 0 : item.deaths }
                                             </Col>
                                         </Row>
                                     </Card.Body>
