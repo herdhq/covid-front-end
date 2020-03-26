@@ -1,3 +1,38 @@
+<p align="center">
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+    <a href="https://github.com">
+    <img src="https://img.shields.io/github/contributors/herdhq/covid-front-end.svg" alt="Contributors">
+  </a>
+    <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT">
+    </a>
+    <a href="https://twitter.com/secxena">
+    <img src="https://img.shields.io/twitter/follow/secxena.svg?logo=twitter">
+    </a>
+</p>
+<br>
+
+# Features
+
+- [x] Official Vs Unofficial Data
+- [x] Country Comparison of India, USA, and Italy
+- [x] Statewise official COVID19 cases
+- [x] Statewise Hospital, Beds and Helpline Numbers
+- [x] Connection graph of Indian COVID19 cases
+- [x] All Recent Notifications from the Ministry of Health and family affairs India.
+- [x] News from 20 source 
+
+
+# Todos
+- [ ] Better UX
+- [ ] Contributor mentions
+- [ ] Graph label correction
+
+
+# Tech
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -27,42 +62,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Contributors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* **Sagar Kaurav**
+###  Areas to contribute
+- Help in UX
+- Better UI
+- Help document the code
+- Spread the word
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* **Apoorv Raj Saxena** 
+* **Anupriya Srivastava**
+* **Yash Raj Saxena**
 
-### Code Splitting
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Licensed under the MIT, see [LICENSE](LICENSE) for more information.
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
