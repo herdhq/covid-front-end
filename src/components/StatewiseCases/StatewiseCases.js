@@ -49,7 +49,7 @@ class StatewiseCases extends Component {
                                         </Accordion.Toggle>
                                     </Card.Header>
                                     <Accordion.Collapse eventKey={index}>
-                                    <Card.Body style={{backgroundColor:'#343a40'}}>
+                                    <Card.Body style={{backgroundColor:'#343a40', whiteSpace: 'nowrap'}}>
                                         <Row>
                                             <Col xs={12} lg={12} style={{textAlign:'center', padding:'20px', backgroundColor:'#dfecdf'}}>
                                                 Total Cases - {item.total_cases}
