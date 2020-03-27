@@ -30,6 +30,14 @@ const DATA = [
     {
         name:'News from 20 sources',
         link:'https://theherdlabs.com/static/newssource.txt'
+    },
+    {
+        name:'Terms of Use & Terms and conditions',
+        link:'https://theherdlabs.com/static/tnc.html'
+    },
+    {
+        name:'Privacy Policy',
+        link:'https://theherdlabs.com/static/privacy.html'
     }
 ];
 

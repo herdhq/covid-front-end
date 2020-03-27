@@ -47,12 +47,12 @@ export default class App extends React.Component {
           <ContagionGraph />
         </div>
         <div>
+          {/* component for news */}
+          <News />
+        <div>
           {/* component for notification */}
           <Notifications />
         </div>
-        <div>
-          {/* component for news */}
-          <News />
         </div>
         {/* Footer */}
         <Footer />
