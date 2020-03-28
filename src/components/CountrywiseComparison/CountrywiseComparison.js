@@ -72,7 +72,7 @@ class CountrywiseComparison extends Component {
                                         legendOffset: -60,
                                         legendPosition: 'middle'
                                     }}
-                                    colors={{ scheme: 'nivo' }}
+                                    colors={{ scheme: 'dark2' }}
                                     pointSize={15}
                                     pointColor={{ theme: 'background' }}
                                     pointBorderWidth={2}
@@ -140,7 +140,7 @@ class CountrywiseComparison extends Component {
                                         legendOffset: -60,
                                         legendPosition: 'middle'
                                     }}
-                                    colors={{ scheme: 'nivo' }}
+                                    colors={{ scheme: 'set1' }}
                                     pointSize={15}
                                     pointColor={{ theme: 'background' }}
                                     pointBorderWidth={2}
@@ -208,7 +208,7 @@ class CountrywiseComparison extends Component {
                                         legendOffset: -60,
                                         legendPosition: 'middle'
                                     }}
-                                    colors={{ scheme: 'nivo' }}
+                                    colors={{ scheme: 'category10' }}
                                     pointSize={15}
                                     pointColor={{ theme: 'background' }}
                                     pointBorderWidth={2}
