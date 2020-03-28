@@ -80,6 +80,7 @@ class CountrywiseComparison extends Component {
                                     pointLabel="y"
                                     pointLabelYOffset={-12}
                                     useMesh={true}
+                                    enableArea={true}
                                     legends={[
                                         {
                                             anchor: 'bottom-right',
@@ -147,6 +148,7 @@ class CountrywiseComparison extends Component {
                                     pointLabel="y"
                                     pointLabelYOffset={-12}
                                     useMesh={true}
+                                    enableArea={true}
                                     legends={[
                                         {
                                             anchor: 'bottom-right',
@@ -214,6 +216,7 @@ class CountrywiseComparison extends Component {
                                     pointLabel="y"
                                     pointLabelYOffset={-12}
                                     useMesh={true}
+                                    enableArea={true}
                                     legends={[
                                         {
                                             anchor: 'bottom-right',
