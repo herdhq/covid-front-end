@@ -16,17 +16,17 @@ class CountrywiseComparison extends Component {
     }
 
     componentDidMount() {
-        axios.get(`https://theherdlabs.com/api/v1/country/graph/india/date`)
+        axios.get(`https://theherdlabs.com/api/v1/country/graph/india/id`)
             .then(res => {
                 const graph_india = res.data;
                 this.setState({ graph_india});
             })
-        axios.get(`https://theherdlabs.com/api/v1/country/graph/usa/date`)
+        axios.get(`https://theherdlabs.com/api/v1/country/graph/usa/id`)
             .then(res => {
                 const graph_usa = res.data;
                 this.setState({graph_usa});
             })
-        axios.get(`https://theherdlabs.com/api/v1/country/graph/italy/date`)
+        axios.get(`https://theherdlabs.com/api/v1/country/graph/italy/id`)
             .then(res => {
                 const graph_italy = res.data;
                 this.setState({graph_italy});
@@ -39,7 +39,7 @@ class CountrywiseComparison extends Component {
                 <Row>
                     <Col xs={12}>
                         <h3 style={{paddingLeft:'5px'}}>Countrywise Comparison</h3>
-                        <p>Weekly data of corona starting from 2020-01-22</p>
+                        <p>Weekly data of COVID19 starting from 22 Jan 2020 </p>
                     </Col>
                 </Row>
                 <Row>
