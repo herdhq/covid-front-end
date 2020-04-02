@@ -39,7 +39,9 @@ class CountrywiseComparison extends Component {
                 <Row>
                     <Col xs={12}>
                         <h3 style={{paddingLeft:'5px'}}>Countrywise Comparison</h3>
-                        <p>Weekly data of COVID19 starting from 22 Jan 2020 </p>
+                        <p style={{paddingLeft:'8px'}}>COVID19 Weekly Data<br/>
+                        Starting pointer: 19th Feb (12-19 Feb)<br/>
+                        Last pointer: Increase in number from last week</p>
                     </Col>
                 </Row>
                 <Row>
