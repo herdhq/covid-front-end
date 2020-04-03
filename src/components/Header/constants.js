@@ -8,6 +8,10 @@ const MENU_TAGS = [
         link:'#CountrywiseComparison'
     },
     {
+        tag:'Tests Comparison',
+        link:'#ContagionGraph'
+    },
+    {
         tag:'Statewise Cases',
         link:'#StatewiseCases'
     },
@@ -16,16 +20,8 @@ const MENU_TAGS = [
         link:'#HospitalsContacts',
     },
     {
-        tag:'Contagion Graph',
-        link:'#ContagionGraph'
-    },
-    {
         tag:'News',
         link:'#News',
-    },
-    {
-        tag:'Gov. Notifications',
-        link:'#Notifications',
     }
 ];
 

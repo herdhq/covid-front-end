@@ -39,19 +39,20 @@ export default class App extends React.Component {
           {/* <TodayCases /> */}
           <CountrywiseComparison />
           {/* component for statewise cases */}
+          <ContagionGraph />
           <StatewiseCases />
         </div>
         <div>
           {/* component for hospital details */}
           <HospitalsContacts />
-          <ContagionGraph />
+          
         </div>
         <div>
           {/* component for news */}
           <News />
         <div>
           {/* component for notification */}
-          <Notifications />
+          {/* <Notifications /> */}
         </div>
         </div>
         {/* Footer */}
